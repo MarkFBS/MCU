@@ -1,0 +1,19 @@
+/* TEAM */
+	Web Developer: Mark Evans, Fist Bump Studios
+	Website: www.fistbumpstudios.co.uk
+	Contact: Mark(at)fistbumpstudios.co.uk
+	Twitter: @TGS_Markus
+	From: Medway, Kent, UK
+
+
+/* THANKS */
+	Logo Designer: Caspian Reynolds, Channy Designs
+	Contact: channy.designs(at)gmx. com
+	From: Maidstone, Kent, UK
+		
+
+/* SITE */
+	Last update: 2015/10/13
+	Language: English
+	Doctype: HTML5
+	IDE: Codeanywhere, Cyberduck, Photoshop
