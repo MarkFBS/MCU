@@ -1,3 +1,6 @@
+/* I've done some eits of my own to match the brand coloring, added and removed code to match the client. - Mark */
+
+
 body{
     
 }
@@ -448,6 +451,13 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     padding-top: 15px;
     background-color: rgba(0,0,0,.0);
 }
+
+.navbar-transparent .alert {
+	background-color: rgba(0,0,0,.0);
+	color: #FFFFFF;
+    opacity: 0.95;
+}
+
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand{
     color: #FFFFFF;
     opacity: 0.95;
@@ -456,6 +466,17 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     background-color: rgba(0, 0, 0, 0);
     color: #5E5E5E;
 }
+
+.navbar-default:not(.navbar-transparent) .navbar-brand:hover  {
+	background-color: rgba(0, 0, 0, 0);
+    color: #0C9C14;
+}
+
+.navbar-default:not(.navbar-transparent) .navbar-brand:focus {
+	background-color: rgba(0, 0, 0, 0);
+    color: #0C9C14;
+}
+
 .navbar-transparent .nav .caret{
     border-bottom-color: #FFFFFF;
     border-top-color: #FFFFFF;
@@ -513,10 +534,12 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     border-color: #05AE0E;
 	
 }
-.navbar-default:not(.navbar-transparent) .btn-default:hover{
+.navbar-default:not(.navbar-transparent) .btn-default:hover .btn-default:focus .btn-default.active, .open .dropdown-toggle.btn-default {
     color: #0C9C14;
     border-color: #0C9C14;
 }
+
+	
 .navbar-transparent .btn-default, [class*="navbar-ct"] .btn-default{
     color: #FFFFFF;
     border-color: #FFFFFF;
@@ -703,6 +726,21 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
         color: #FFFFFF;
         opacity: 0.8;
     }
+	
+	.navbar-default:not(.navbar-transparent) .navbar-nav .open .dropdown-menu > li > a, [class*="navbar-ct"] .dropdown-menu > li > a {
+	
+		 color: #05AE0E;
+	
+	}
+	
+	.navbar-default:not(.navbar-transparent) .navbar-nav .open .dropdown-menu > li > a:hover, [class*="navbar-ct"] .dropdown-menu > li > a:focus {
+	
+		color: #05AE0E;
+		background-color: rgba(0,0,0,0);
+		opacity: 1;
+	
+	}
+	
     .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
         background-color: rgba(0,0,0,0);
         border-color: #428BCA;
@@ -1105,8 +1143,8 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     color: #333333;
 }
 
-/*   EXTRA SHIT  */
-/* @cristina: fisier singular, folosit pentru efectul de blur la parallax in header */
+/*   EXTRA  */
+/* fisier singular, folosit pentru efectul de blur la parallax in header */
 
 .blurred-container{
   position:relative;
